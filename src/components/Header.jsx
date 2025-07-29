@@ -38,7 +38,7 @@ export default function Header({car, removerFromCart, increaseQuantity, decrease
                                                     {car.map(guitar => (
                                                         <tr key={guitar.id}>
                                                             <td>
-                                                                <img className="img-fluid" src={`./public/img/${guitar.image}.jpg`} alt="imagen guitarra" />
+                                                                <img className="img-fluid" src={`/img/${guitar.image}.jpg`} alt="imagen guitarra" />
                                                             </td>
                                                             <td>{guitar.name}</td>
                                                             <td className="fw-bold">
